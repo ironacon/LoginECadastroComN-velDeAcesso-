@@ -1,0 +1,111 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image:url(img/img1.jpg);
+
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff80;
+    padding: 15px;
+    border-radius: 20px;
+    width: 26em;
+    height: 46em;
+
+}
+fieldset{
+    border: 3px #000000;
+}
+legend{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.inputBox{
+    position: relative;
+    
+}
+.inputUser{
+    padding: 20px;
+    width: 12em;
+    outline: none;
+    box-shadow: #00000060;
+    border: 2px #aa9f9f;
+    font-size: 20px;
+    border-radius: 20px ;
+}
+.inputData{
+    padding: 10px;
+    width: 10em;
+    outline: none;
+    box-shadow: #00000060;
+    border: 2px #aa9f9f;
+    font-size: 15px;
+    border-radius: 10px ;
+
+}
+.inputlabel{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6e6b6b; 
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+.radioSexo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000; 
+    font-weight: bold;
+    font-size: 15px;
+}
+.submit-btn{
+    padding: 15px;
+    outline: none;
+    width: 10em;
+    border-radius: 10px;
+    background-color: #10B6EA;
+    border: 3cap #3f6ecd;
+    box-shadow: #00000060;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffff;
+    transition: all .4s ease-out;
+    font-weight: bold;
+}
+div.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.submit-btn:hover{
+    background-color: #3f6ecd;
+    cursor: pointer;
+    color: beige;
+}
+.alinhamento{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    color: #fff;
+    padding: 1rem;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    background: #755a3e;
+    flex-direction: column-reverse;
+    margin: 4px;
+    transition: all 0.5s ease-in-out;
+}     
+.icon:hover{
+    transform: translateY(-5px);
+}
